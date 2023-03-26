@@ -1,0 +1,15 @@
+@media screen and (max-width: 575px) {
+  .form-control {
+    padding: 0.5rem 1rem;
+  }
+
+  .search-button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}

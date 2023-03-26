@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>search food</title>
+    <!-- bootstrap file link -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- responsive css file -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
+    <!-- ========================= header section starts ========================= -->
+    <header>
+      <nav class="navbar bg-body-tertiary py-3 py-md-4 bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark fw-bold">Tasty HUT</a>
+          <form class="d-flex" role="search">
+            <button class="btn btn-warning fw-bold px-4 py-2" type="submit">
+              Sign UP
+            </button>
+          </form>
+        </div>
+      </nav>
+      <div class="container">
+        <!-- banner section starts -->
+        <section id="banner d-flex align-items-center justify-content-center">
+          <div class="banner-info">
+            <h1 class="banner-title mb-3 mb-md-4">
+              Taste Our Delicious Best Foods
+            </h1>
+            <p class="banner-description mb-3 mb-md-4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humou.
+            </p>
+
+            <!-- search field -->
+            <div class="input-group mt-1 mt-md-2 mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search your meal"
+                aria-label="Recipient's username"
+                aria-describedby="search-button"
+              />
+              <button
+                class="search-button btn btn-warning fw-bold"
+                type="button"
+                id="search-button"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- ========================= header section ends ========================= -->
+    <!-- ========================= main section starts ========================= -->
+    <main class="mg-top">
+      <!-- ============== favorite food section starts ============== -->
+      <section>
+        <div class="container">
+          <h2 class="text-center mb-5">Your Favorite Food</h2>
+
+          <!-- favorite food section -->
+          <div
+            id="meals-section"
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5 gx-4"
+          ></div>
+
+          <!-- show all button -->
+          <div class="text-center">
+            <button
+              onclick="showAllMeals()"
+              class="search-button btn btn-warning fw-bold mt-5"
+              type="button"
+              id="show-all"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ============== favorite food section ends ============== -->
+    </main>
+    <!-- ========================= main section ends ========================= -->
+    <!-- script file link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
