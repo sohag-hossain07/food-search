@@ -62,3 +62,22 @@ header {
 .search-button {
   padding: 0.8rem 3rem;
 }
+
+.details-meal-image > img {
+  width: 672px;
+  height: 409px;
+  object-fit: cover;
+  margin-top: 2.5rem;
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: 15px 15px 15px #eef5fbd1, -5px -5px 15px #a9a9a926;
+  border: 0;
+}
+
+.card > img {
+  height: 250px;
+  object-fit: cover;
+  padding: 1rem;
+}

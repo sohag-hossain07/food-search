@@ -8,6 +8,13 @@
   }
 }
 
+@media screen and (max-width: 991px) {
+  .details-meal-image > img {
+    width: 446px;
+    height: 300px;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   h1 {
     font-size: 3.5rem;
